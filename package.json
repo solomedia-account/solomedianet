@@ -2,7 +2,7 @@
   "name": "solomedianet",
   "version": "0.1.0",
   "private": true,
-  "": "http://solomedia-account.github.io/solomedianet",
+  "": "https://solomedia-account.github.io/solomedianet",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
