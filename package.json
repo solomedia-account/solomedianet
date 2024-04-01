@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "build index.js",
     "start": "react-scripts start index.js",
     "build": "react-scripts build index.js",
     "test": "react-scripts test",
