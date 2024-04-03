@@ -1,7 +1,7 @@
 {
   "name": "solomedianet",
   "version": "0.1.0",
-  "homepage": "https://solomedia-account.github.io/solomedianet",
+  "homepage": "https://solomedia-account.github.io/solomedianet/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -20,9 +20,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "build index.js",
-    "start": "react-scripts start index.js",
-    "build": "react-scripts build index.js",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
